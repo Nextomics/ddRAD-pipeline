@@ -42,15 +42,3 @@ DESCRIPTION
 	2 means The Reverse Sequence.
 	3 means The Negative Sequence.
 	4 means The Reverse-Negative Sequence.
-
-AUTHOR
-
-Jiang Hu : mooldhu\@gmail.com
-
-Usage
-
-perl find_Restriction_Enzyme_cutting_site.pl AAGGCT rice.fa 1234 > your.result.file;
-
-perl find_Restriction_Enzyme_cutting_site.pl AAGGCT GCGGCA GGGCA rice.fa 13 > your.result.file;
-
-perl find_Restriction_Enzyme_cutting_site.pl AAGGCT GCGGCA GGGCA ... rice.fa 123 > your.result.file;
